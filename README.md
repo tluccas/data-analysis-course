@@ -25,3 +25,4 @@ O objetivo é apresentar, na prática, como trabalhar com dados: desde a leitura
 - **Python 3**
 - **Pandas**
 - **Jupyter**
+- **Numpy**
