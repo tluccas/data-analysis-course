@@ -26,3 +26,29 @@ O objetivo é apresentar, na prática, como trabalhar com dados: desde a leitura
 - **Pandas**
 - **Jupyter**
 - **Numpy**
+
+## 🚀 Como rodar
+### 1. Criando o ambiente virtual
+**Linux/Mac**
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+**Windows**
+```
+# Opt 1: PowerShell
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# Opt 2: Cmd
+
+python -m venv venv
+.\venv\Scripts\activate.bat
+```
+
+### 2. Instalalando Dependências
+
+```
+pip install pandas numpy matplotlib jupyter
+```
