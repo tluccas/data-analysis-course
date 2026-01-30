@@ -1,4 +1,4 @@
-# Data Analysis Lab - RoadMap do curso de Análise de Dados 
+# Data Analysis Lab - Roadmap do Curso de Análise de Dados 
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -26,6 +26,7 @@ O objetivo é apresentar, na prática, como trabalhar com dados: desde a leitura
 - **Pandas**
 - **Jupyter**
 - **Numpy**
+- **_Libs:_** **seaborn**, **plotly**, **matplotlib**
 
 ## 🚀 Como rodar
 ### 1. Criando o ambiente virtual
@@ -49,6 +50,14 @@ python -m venv venv
 
 ### 2. Instalalando Dependências
 
+**Método 1 (Recomendado)**
+
 ```
-pip install pandas numpy matplotlib jupyter
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+```
+
+**Método 2**
+```
+pip install pandas numpy matplotlib jupyter seaborn plotly
 ```
